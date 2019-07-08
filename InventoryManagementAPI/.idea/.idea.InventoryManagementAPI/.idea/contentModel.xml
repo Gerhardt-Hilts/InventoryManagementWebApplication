@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\user\.Rider2019.1\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\user\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\user\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_InventoryManagementAPI.921328148.00" t="ExcludeRecursive" />
+    <e p="C:\Users\user\Workspace\InventoryManagement\InventoryManagementAPI" t="IncludeFlat">
+      <e p="InventoryManagementAPI" t="IncludeRecursive">
+        <e p="app.config" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="ValuesController.cs" t="Include" />
+        </e>
+        <e p="InventoryManagementAPI.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="InventoryManagementAPI.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="InventoryManagementAPI.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
