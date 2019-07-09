@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a93f283-1f38-4202-b041-368b9d463035" name="Default Changelist" comment="added Npgsql package to project">
-      <change afterPath="$PROJECT_DIR$/InventoryManagementAPI/Models/RequestResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InventoryManagementAPI/PostgresqlDatabase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.InventoryManagementAPI/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InventoryManagementAPI/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.InventoryManagementAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InventoryManagementAPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementDLL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementDLL.cs" afterDir="false" />
+    <list default="true" id="8a93f283-1f38-4202-b041-368b9d463035" name="Default Changelist" comment="Added 'PostgresDatabase' Class">
+      <change beforePath="$PROJECT_DIR$/InventoryManagementAPI/PostgresqlDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryManagementAPI/PostgresDatabase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InventoryManagementAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryManagementAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InventoryManagementAPI/obj/Debug/netcoreapp2.2/InventoryManagementAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryManagementAPI/obj/Debug/netcoreapp2.2/InventoryManagementAPI.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InventoryManagementAPI/obj/Debug/netcoreapp2.2/InventoryManagementAPI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryManagementAPI/obj/Debug/netcoreapp2.2/InventoryManagementAPI.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InventoryManagementAPI/obj/InventoryManagementAPI.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryManagementAPI/obj/InventoryManagementAPI.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InventoryManagementAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryManagementAPI/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InventoryManagementAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryManagementAPI/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,12 +62,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/PostgresqlDatabase.cs">
+        <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/PostgresDatabase.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="35" column="70" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+            <state relative-caret-position="315">
+              <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
               <folding>
-                <marker date="1562658316563" expanded="true" signature="6:108" ph="..." />
+                <marker date="1562658316563" expanded="false" signature="6:108" ph="..." />
                 <marker date="1562658316563" expanded="true" signature="142:2005" ph="{...}" />
                 <marker date="1562658316563" expanded="true" signature="178:2003" ph="{...}" />
                 <marker date="1562658316563" expanded="true" signature="296:387" ph="{...}" />
@@ -95,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/Models/RequestResult.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="135">
               <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding>
                 <marker date="1562657139901" expanded="true" signature="39:249" ph="{...}" />
@@ -181,7 +172,7 @@
     <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2DDBDA9-1E09-414A-801B-36BA566856C2/dd/4dc7cc23/Boolean.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementDLL.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/PostgresqlDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/PostgresDatabase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/Models/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/Models/Customer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/Models/ItemType.cs" root0="FORCE_HIGHLIGHTING" />
@@ -329,7 +320,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562584151960</updated>
-      <workItem from="1562584153645" duration="12012000" />
+      <workItem from="1562584153645" duration="12265000" />
     </task>
     <task id="LOCAL-00001" summary="modified sql scripts">
       <created>1562651196238</created>
@@ -359,13 +350,27 @@
       <option name="project" value="LOCAL" />
       <updated>1562655984337</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added 'RequestResult' Class, and 'ResultCode' Enum">
+      <created>1562658445202</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562658445202</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added 'PostgresDatabase' Class">
+      <created>1562658546099</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562658546099</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12012000" />
+    <option name="totallyTimeSpent" value="12265000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -416,8 +421,10 @@
     <MESSAGE value="modified sql scripts" />
     <MESSAGE value="added data logic layer for inventory management" />
     <MESSAGE value="added item types" />
+    <MESSAGE value="Added 'RequestResult' Class, and 'ResultCode' Enum" />
     <MESSAGE value="added Npgsql package to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Npgsql package to project" />
+    <MESSAGE value="Added 'PostgresDatabase' Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 'PostgresDatabase' Class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -530,7 +537,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/Models/RequestResult.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="135">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
             <marker date="1562657139901" expanded="true" signature="39:249" ph="{...}" />
@@ -569,12 +576,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/PostgresqlDatabase.cs">
+    <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/PostgresDatabase.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="35" column="70" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+        <state relative-caret-position="315">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
           <folding>
-            <marker date="1562658316563" expanded="true" signature="6:108" ph="..." />
+            <marker date="1562658316563" expanded="false" signature="6:108" ph="..." />
             <marker date="1562658316563" expanded="true" signature="142:2005" ph="{...}" />
             <marker date="1562658316563" expanded="true" signature="178:2003" ph="{...}" />
             <marker date="1562658316563" expanded="true" signature="296:387" ph="{...}" />

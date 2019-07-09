@@ -1,6 +1,5 @@
 using System;
 using InventoryManagementAPI.Models;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Npgsql;
 
 namespace InventoryManagementAPI
