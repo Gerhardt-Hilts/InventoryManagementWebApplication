@@ -1,7 +1,13 @@
+using InventoryManagementAPI.Models;
+
 namespace InventoryManagementAPI.Controllers
 {
     public class InventoryManagementDLL
     {
-        getItems()
+        Item[] getItems()
+        {
+            string request = "SELECT * FROM item_ledger";
+            
+        }
     }
 }
