@@ -17,10 +17,10 @@ namespace InventoryManagementAPI
         // Test database connection
         public RequestResult TestDatabaseConnection()
         {
+            Console.WriteLine("Testing Connection...");
             // check if connection is specified
             if (_connection == null)
             {
-                Console.WriteLine("Testing Connection, ");
                 return new RequestResult()
                 {
                     Code = ResultCode.Failure,
@@ -52,6 +52,7 @@ namespace InventoryManagementAPI
             };
         }
 
+        // create a command to execute against connect database
         public NpgsqlCommand CreateCommand(string command)
         {
             return new NpgsqlCommand(command, _connection);
