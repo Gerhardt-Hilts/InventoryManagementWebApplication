@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a93f283-1f38-4202-b041-368b9d463035" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementDLL.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InventoryManagementAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InventoryManagementAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryManagementAPI/InventoryManagementAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryManagementAPI/InventoryManagementAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InventoryManagementDatabaseScripts/create_item_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InventoryManagementDatabaseScripts/initialize_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../InventoryManagementDatabaseScripts/initialize_database.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +36,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementDLL.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding>
+                <marker date="1562651140303" expanded="true" signature="44:109" ph="{...}" />
+                <marker date="1562651140303" expanded="true" signature="86:107" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/TodoList.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="315">
-                <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+              <first_editor relative-caret-position="510">
+                <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
               </first_editor>
               <second_editor />
             </state>
@@ -50,11 +67,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementDLL.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/scratches/TodoList.md" />
+        <option value="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementDLL.cs" />
       </list>
     </option>
   </component>
@@ -175,12 +194,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562584151960</updated>
-      <workItem from="1562584153645" duration="2699000" />
+      <workItem from="1562584153645" duration="6370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2699000" />
+    <option name="totallyTimeSpent" value="6370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -196,7 +215,7 @@
     <layout>
       <window_info id="Azure Explorer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986681" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986681" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Azure Activity Log" />
@@ -205,7 +224,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Unit Tests" />
       <window_info anchor="bottom" id="REST Client" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32977587" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32977587" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Performance Profiler" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -239,6 +258,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/TodoList.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/ValuesController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -256,13 +285,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/TodoList.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementDLL.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <marker date="1562651140303" expanded="true" signature="44:109" ph="{...}" />
+            <marker date="1562651140303" expanded="true" signature="86:107" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

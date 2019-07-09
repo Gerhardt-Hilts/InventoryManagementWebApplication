@@ -11,6 +11,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="InventoryManagementDLL.cs" t="Include" />
           <e p="ValuesController.cs" t="Include" />
         </e>
         <e p="InventoryManagementAPI.csproj" t="IncludeRecursive" />
