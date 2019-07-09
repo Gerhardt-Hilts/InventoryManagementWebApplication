@@ -7,12 +7,11 @@ namespace InventoryManagementAPI
     public class PostgresDatabase
     {
         private NpgsqlConnection _connection;
-        
+
+        public PostgresDatabase(string connectionString) => ConnectToDb(connectionString);
+
         // Connect to database
-        public void ConnectToDb(string connectionString)
-        {
-            this._connection = new NpgsqlConnection(connectionString);
-        }
+        private void ConnectToDb(string connectionString) => _connection = new NpgsqlConnection(connectionString);
 
         // Test database connection
         public RequestResult TestDatabaseConnection()
@@ -50,6 +49,20 @@ namespace InventoryManagementAPI
                 Code = ResultCode.Failure,
                 Info = "Could not connect!"
             };
+        }
+        
+        // Open connection with database
+        public void OpenConnection()
+        {
+            _connection.Open();
+            Console.WriteLine("Opening Connection");
+        }
+        
+        // Close connection with database
+        public void CloseConnection()
+        {
+            _connection.Close();
+            Console.WriteLine("Closing connection");
         }
 
         // create a command to execute against connect database
