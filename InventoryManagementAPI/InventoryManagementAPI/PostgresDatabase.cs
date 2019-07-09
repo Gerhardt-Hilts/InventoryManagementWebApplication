@@ -8,17 +8,19 @@ namespace InventoryManagementAPI
     {
         private NpgsqlConnection _connection;
         
+        // Connect to database
         public void ConnectToDb(string connectionString)
         {
             this._connection = new NpgsqlConnection(connectionString);
         }
 
+        // Test database connection
         public RequestResult TestDatabaseConnection()
         {
             // check if connection is specified
-            if (this._connection == null)
+            if (_connection == null)
             {
-                Console.WriteLine("Testing Connection, ", this._connection);
+                Console.WriteLine("Testing Connection, ");
                 return new RequestResult()
                 {
                     Code = ResultCode.Failure,
@@ -27,13 +29,13 @@ namespace InventoryManagementAPI
             }
 
             // open connection
-            this._connection.Open();
+            _connection.Open();
             
             // check connection state and return result
-            if (this._connection.State == System.Data.ConnectionState.Open)
+            if (_connection.State == System.Data.ConnectionState.Open)
             {
                 // close connection and return success if state is open
-                this._connection.Close();
+                _connection.Close();
                 return new RequestResult()
                 {
                     Code = ResultCode.Success,
@@ -42,13 +44,20 @@ namespace InventoryManagementAPI
             }
 
             // close connection and return failure if state is not open
-            this._connection.Close();
+            _connection.Close();
             return new RequestResult()
             {
                 Code = ResultCode.Failure,
                 Info = "Could not connect!"
             };
         }
+
+        public NpgsqlCommand CreateCommand(string command)
+        {
+            return new NpgsqlCommand(command, _connection);
+        }
+        
+        
         
         // TODO read configuration for default database connection information file
         // TODO prompt user if configuration file does not exist
