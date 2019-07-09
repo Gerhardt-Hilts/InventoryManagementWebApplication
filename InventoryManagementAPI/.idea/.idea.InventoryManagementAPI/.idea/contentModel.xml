@@ -20,6 +20,7 @@
           <e p="Item.cs" t="Include" />
           <e p="ItemCondition.cs" t="Include" />
           <e p="ItemType.cs" t="Include" />
+          <e p="RequestResult.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -28,6 +29,7 @@
             </e>
           </e>
         </e>
+        <e p="PostgresqlDatabase.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
