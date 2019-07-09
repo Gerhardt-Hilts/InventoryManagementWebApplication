@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a93f283-1f38-4202-b041-368b9d463035" name="Default Changelist" comment="Adding .idea files">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.InventoryManagementAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InventoryManagementAPI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagement/InventoryManagementDll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagement/InventoryManagementDll.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagement/SqlCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagement/SqlCommands.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InventoryManagementAPI/PostgresDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryManagementAPI/PostgresDatabase.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,11 +86,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagement/InventoryManagementDll.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="765">
-                  <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+                <state relative-caret-position="255">
+                  <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
                   <folding>
                     <marker date="1562677878128" expanded="true" signature="6:89" ph="..." />
                     <marker date="1562677878128" expanded="true" signature="155:1800" ph="{...}" />
@@ -125,17 +123,17 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementController.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+                <state relative-caret-position="345">
+                  <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
                   <folding>
-                    <marker date="1562675948331" expanded="true" signature="6:164" ph="..." />
-                    <marker date="1562675948331" expanded="true" signature="210:924" ph="{...}" />
-                    <marker date="1562675948331" expanded="true" signature="338:922" ph="{...}" />
-                    <marker date="1562675948331" expanded="true" signature="715:783" ph="{...}" />
-                    <marker date="1562675948331" expanded="true" signature="859:916" ph="{...}" />
+                    <marker date="1562678264813" expanded="true" signature="6:164" ph="..." />
+                    <marker date="1562678264813" expanded="true" signature="210:1001" ph="{...}" />
+                    <marker date="1562678264813" expanded="true" signature="338:999" ph="{...}" />
+                    <marker date="1562678264813" expanded="true" signature="792:860" ph="{...}" />
+                    <marker date="1562678264813" expanded="true" signature="936:993" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -192,7 +190,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagement/SqlCommands.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagement/InventoryManagementDll.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/Models/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InventoryManagementAPI/Models/Customer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -221,9 +218,9 @@
         <option value="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagement/Queries.cs" />
         <option value="$PROJECT_DIR$/InventoryManagementAPI/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/InventoryManagementAPI/PostgresDatabase.cs" />
-        <option value="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementController.cs" />
         <option value="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagement/SqlCommands.cs" />
         <option value="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagement/InventoryManagementDll.cs" />
+        <option value="$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementController.cs" />
       </list>
     </option>
   </component>
@@ -364,7 +361,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562584151960</updated>
-      <workItem from="1562584153645" duration="29179000" />
+      <workItem from="1562584153645" duration="29749000" />
     </task>
     <task id="LOCAL-00001" summary="modified sql scripts">
       <created>1562651196238</created>
@@ -471,11 +468,32 @@
       <option name="project" value="LOCAL" />
       <updated>1562666746771</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added methods to open and close database connection">
+      <created>1562678014389</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1562678014389</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Removed demo controller">
+      <created>1562678283749</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1562678283749</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added 'CreateItemsTable' command">
+      <created>1562678524039</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1562678524039</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29179000" />
+    <option name="totallyTimeSpent" value="29749000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -492,7 +510,7 @@
     <layout>
       <window_info id="Azure Explorer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986681" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986681" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" weight="0.32977587" />
       <window_info anchor="bottom" id="Azure Activity Log" />
@@ -508,7 +526,7 @@
       <window_info anchor="bottom" id="Database Console" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32977587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -542,7 +560,10 @@
     <MESSAGE value="Renamed and moved file" />
     <MESSAGE value="Added 'InventoryManagementController' controller" />
     <MESSAGE value="Adding .idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding .idea files" />
+    <MESSAGE value="Added methods to open and close database connection" />
+    <MESSAGE value="Removed demo controller" />
+    <MESSAGE value="Added 'CreateItemsTable' command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 'CreateItemsTable' command" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -668,37 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/ValuesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <marker date="1562666559334" expanded="true" signature="6:65" ph="..." />
-            <marker date="1562666559334" expanded="true" signature="111:924" ph="{...}" />
-            <marker date="1562666559334" expanded="true" signature="221:922" ph="{...}" />
-            <marker date="1562666559334" expanded="true" signature="326:400" ph="{...}" />
-            <marker date="1562666559334" expanded="true" signature="503:551" ph="{...}" />
-            <marker date="1562666559334" expanded="true" signature="648:668" ph="{...}" />
-            <marker date="1562666559334" expanded="true" signature="780:800" ph="{...}" />
-            <marker date="1562666559334" expanded="true" signature="896:916" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <marker date="1562675948331" expanded="true" signature="6:164" ph="..." />
-            <marker date="1562675948331" expanded="true" signature="210:924" ph="{...}" />
-            <marker date="1562675948331" expanded="true" signature="338:922" ph="{...}" />
-            <marker date="1562675948331" expanded="true" signature="715:783" ph="{...}" />
-            <marker date="1562675948331" expanded="true" signature="859:916" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/PostgresDatabase.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
@@ -732,10 +722,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagement/InventoryManagementDll.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
             <marker date="1562677878128" expanded="true" signature="6:89" ph="..." />
             <marker date="1562677878128" expanded="true" signature="155:1800" ph="{...}" />
@@ -750,6 +747,20 @@
             <marker date="1562677878128" expanded="true" signature="1235:1526" ph="{...}" />
             <marker date="1562677878128" expanded="true" signature="1580:1661" ph="{...}" />
             <marker date="1562677878128" expanded="true" signature="1706:1792" ph="/* TODO check if correct tables exist ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InventoryManagementAPI/Controllers/InventoryManagementController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <marker date="1562678264813" expanded="true" signature="6:164" ph="..." />
+            <marker date="1562678264813" expanded="true" signature="210:1001" ph="{...}" />
+            <marker date="1562678264813" expanded="true" signature="338:999" ph="{...}" />
+            <marker date="1562678264813" expanded="true" signature="792:860" ph="{...}" />
+            <marker date="1562678264813" expanded="true" signature="936:993" ph="{...}" />
           </folding>
         </state>
       </provider>

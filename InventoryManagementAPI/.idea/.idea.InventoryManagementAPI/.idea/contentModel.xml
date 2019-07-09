@@ -16,7 +16,6 @@
             <e p="SqlCommands.cs" t="Include" />
           </e>
           <e p="InventoryManagementController.cs" t="Include" />
-          <e p="ValuesController.cs" t="Include" />
         </e>
         <e p="InventoryManagementAPI.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
