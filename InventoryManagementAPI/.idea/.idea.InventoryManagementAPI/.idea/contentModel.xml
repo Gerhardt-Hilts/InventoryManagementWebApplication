@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\user\.Rider2019.1\config\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\user\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\user\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_InventoryManagementAPI.921328148.00" t="ExcludeRecursive" />
-    <e p="C:\Users\user\Workspace\InventoryManagement\InventoryManagementAPI" t="IncludeFlat">
+    <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_InventoryManagementAPI.-1453825284.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="InventoryManagementAPI" t="IncludeRecursive">
-        <e p="app.config" t="Include" />
-        <e p="appsettings.Development.json" t="Include" />
-        <e p="appsettings.json" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="InventoryManagement" t="Include">
-            <e p="InventoryManagementDLL.cs" t="Include" />
+            <e p="InventoryManagementDll.cs" t="Include" />
             <e p="SqlCommands.cs" t="Include" />
           </e>
           <e p="InventoryManagementController.cs" t="Include" />
@@ -25,6 +20,16 @@
           <e p="ItemType.cs" t="Include" />
           <e p="RequestResult.cs" t="Include" />
         </e>
+        <e p="PostgresDatabase.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="app.config" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -32,12 +37,6 @@
             </e>
           </e>
         </e>
-        <e p="PostgresDatabase.cs" t="Include" />
-        <e p="Program.cs" t="Include" />
-        <e p="Properties" t="Include">
-          <e p="launchSettings.json" t="Include" />
-        </e>
-        <e p="Startup.cs" t="Include" />
       </e>
       <e p="InventoryManagementAPI.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

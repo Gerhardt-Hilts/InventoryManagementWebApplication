@@ -1,19 +1,18 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\user\\Workspace\\InventoryManagement\\InventoryManagementAPI\\InventoryManagementAPI\\InventoryManagementAPI.csproj",
+    "projectUniqueName": "/home/far/Workspace/InventoryManagementWebApplication/InventoryManagementAPI/InventoryManagementAPI/InventoryManagementAPI.csproj",
     "projectName": "InventoryManagementAPI",
-    "projectPath": "C:\\Users\\user\\Workspace\\InventoryManagement\\InventoryManagementAPI\\InventoryManagementAPI\\InventoryManagementAPI.csproj",
-    "outputPath": "C:\\Users\\user\\Workspace\\InventoryManagement\\InventoryManagementAPI\\InventoryManagementAPI\\obj\\",
+    "projectPath": "/home/far/Workspace/InventoryManagementWebApplication/InventoryManagementAPI/InventoryManagementAPI/InventoryManagementAPI.csproj",
+    "outputPath": "/home/far/Workspace/InventoryManagementWebApplication/InventoryManagementAPI/InventoryManagementAPI/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
